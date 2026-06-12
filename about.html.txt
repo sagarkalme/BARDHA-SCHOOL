@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About Us | GOVT. HIGH SCHOOL BARDHA</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+font-family:'Poppins',sans-serif;
+}
+body{
+background:#f8fafc;
+display: flex;
+flex-direction: column;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="bg-white shadow sticky top-0 z-50 w-full">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="flex justify-between items-center h-20">
+
+<div class="flex items-center gap-3">
+
+<img src="images/logo.png"
+class="w-14 h-14">
+
+<div>
+
+<h1 class="font-bold text-blue-900">
+GOVT. HIGH SCHOOL
+</h1>
+
+<p class="text-sm text-gray-500">
+BARDHA
+</p>
+
+</div>
+
+</div>
+
+<div class="hidden md:flex gap-8">
+
+<a href="index.html">Home</a>
+<a href="about.html" class="text-blue-800 font-semibold">About</a>
+<a href="academics.html">Academics</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- PAGE HEADER -->
+
+<section class="bg-blue-900 py-20 text-white text-center">
+
+<h1 class="text-5xl font-bold">
+About Our School
+</h1>
+
+<p class="mt-4 text-blue-100">
+Knowledge • Discipline • Success
+</p>
+
+</section>
+
+<!-- ABOUT SCHOOL -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+
+<div>
+
+<img src="images/about.jpg"
+class="rounded-3xl shadow-xl w-full">
+
+</div>
+
+<div>
+
+<h2 class="text-4xl font-bold text-blue-950 mb-6">
+
+Welcome To Govt. High School Bardha
+
+</h2>
+
+<p class="text-gray-600 leading-relaxed mb-5">
+
+Govt. High School Bardha is dedicated to providing
+quality education and creating a positive learning
+environment for every student.
+
+</p>
+
+<p class="text-gray-600 leading-relaxed">
+
+We believe that education is the foundation of a
+successful future. Our school focuses on academic
+excellence, discipline, sports, creativity and
+overall personality development.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRINCIPAL MESSAGE -->
+
+<section class="bg-white py-20">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="bg-blue-900 rounded-3xl p-10 text-white">
+
+<h2 class="text-4xl font-bold mb-6">
+
+Principal's Message
+
+</h2>
+
+<p class="leading-relaxed text-blue-100">
+
+Welcome to Govt. High School Bardha.
+Our goal is to provide quality education and
+develop responsible, knowledgeable and confident
+students who can contribute positively to society.
+
+We encourage discipline, hard work and innovation
+in every aspect of school life.
+
+</p>
+
+<h3 class="mt-6 font-bold text-xl">
+
+Mr. Shravan Vishvakarma
+
+</h3>
+
+<p class="text-blue-200">
+Principal
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VISION MISSION -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid md:grid-cols-2 gap-8">
+
+<div class="bg-white p-10 rounded-3xl shadow">
+
+<h2 class="text-3xl font-bold text-blue-900 mb-4">
+Our Vision
+</h2>
+
+<p class="text-gray-600">
+
+To empower students through quality education,
+strong values and lifelong learning opportunities.
+
+</p>
+
+</div>
+
+<div class="bg-white p-10 rounded-3xl shadow">
+
+<h2 class="text-3xl font-bold text-blue-900 mb-4">
+Our Mission
+</h2>
+
+<p class="text-gray-600">
+
+To create an inclusive environment where students
+achieve academic excellence and become responsible citizens.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SCHOOL STATS -->
+
+<section class="bg-slate-100 py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-4xl font-bold text-blue-950 mb-12">
+
+School Statistics
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="bg-white p-8 rounded-2xl shadow text-center">
+
+<h3 class="text-5xl font-bold text-blue-900">
+170+
+</h3>
+
+<p class="mt-3">Students</p>
+
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow text-center">
+
+<h3 class="text-5xl font-bold text-blue-900">
+12
+</h3>
+
+<p class="mt-3">Teachers</p>
+
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow text-center">
+
+<h3 class="text-5xl font-bold text-blue-900">
+1-10
+</h3>
+
+<p class="mt-3">Classes</p>
+
+</div>
+
+<div class="bg-white p-8 rounded-2xl shadow text-center">
+
+<h3 class="text-5xl font-bold text-blue-900">
+10:30
+</h3>
+
+<p class="mt-3">AM - 4:30 PM</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FACILITIES -->
+
+<section class="py-20 bg-white">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-4xl font-bold text-blue-950 mb-12">
+
+School Facilities
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="shadow p-6 rounded-2xl text-center">
+📚<br><br>Library
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+🏃<br><br>Playground
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+💻<br><br>Smart Classes
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+🚰<br><br>Drinking Water
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+🚻<br><br>Separate Toilets
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+🍱<br><br>Mid-Day Meal
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+⚽<br><br>Sports
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-slate-900 text-white py-8 w-full">
+
+<div class="text-center">
+
+<p>
+© 2026 GOVT. HIGH SCHOOL BARDHA
+</p>
+
+<p class="text-gray-400 mt-2">
+Knowledge • Discipline • Success
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
