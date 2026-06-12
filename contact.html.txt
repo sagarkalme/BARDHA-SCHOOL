@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | GOVT. HIGH SCHOOL BARDHA</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+display: flex;
+flex-direction: column;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="bg-white shadow sticky top-0 z-50 w-full">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="flex justify-between items-center h-20">
+
+<div class="flex items-center gap-3">
+
+<img src="images/logo.png" class="w-14 h-14">
+
+<div>
+
+<h1 class="font-bold text-blue-900">
+GOVT. HIGH SCHOOL
+</h1>
+
+<p class="text-sm text-gray-500">
+BARDHA
+</p>
+
+</div>
+
+</div>
+
+<div class="hidden md:flex gap-8">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html" class="text-blue-900 font-semibold">Contact</a>
+
+</div>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="bg-blue-900 text-white py-20 rounded-xl">
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<h1 class="text-5xl font-bold">
+
+Contact Us
+
+</h1>
+
+<p class="mt-4 text-blue-100">
+
+We're Here To Help & Answer Your Questions
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid lg:grid-cols-2 gap-10">
+
+<!-- CONTACT INFO -->
+
+<div>
+
+<h2 class="text-4xl font-bold text-blue-950 mb-8">
+
+School Information
+
+</h2>
+
+<div class="space-y-6">
+
+<div class="bg-white shadow rounded-2xl p-6">
+
+<h3 class="font-bold text-blue-900">
+🏫 School Name
+</h3>
+
+<p class="mt-2 text-gray-600">
+Govt. High School Bardha
+</p>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-6">
+
+<h3 class="font-bold text-blue-900">
+👨‍🏫 Principal
+</h3>
+
+<p class="mt-2 text-gray-600">
+Mr. Shravan Vishvakarma
+</p>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-6">
+
+<h3 class="font-bold text-blue-900">
+📍 Address
+</h3>
+
+<p class="mt-2 text-gray-600">
+
+Dandiwada, Itarsi<br>
+Narmadapuram<br>
+Madhya Pradesh - 461111
+
+</p>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-6">
+
+<h3 class="font-bold text-blue-900">
+🕒 School Timing
+</h3>
+
+<p class="mt-2 text-gray-600">
+10:30 AM - 4:30 PM
+</p>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-6">
+
+<h3 class="font-bold text-blue-900">
+📞 Mobile Number
+</h3>
+
+<p class="mt-2 text-gray-600">
+Add Later
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CONTACT FORM -->
+
+<div>
+
+<div class="bg-white shadow-xl rounded-3xl p-8">
+
+<h2 class="text-3xl font-bold text-blue-950 mb-6">
+
+Send Message
+
+</h2>
+
+<form>
+
+<div class="mb-4">
+
+<label class="block mb-2 font-medium">
+Full Name
+</label>
+
+<input
+type="text"
+placeholder="Enter your name"
+class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-600">
+
+</div>
+
+<div class="mb-4">
+
+<label class="block mb-2 font-medium">
+Email Address
+</label>
+
+<input
+type="email"
+placeholder="Enter your email"
+class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-600">
+
+</div>
+
+<div class="mb-4">
+
+<label class="block mb-2 font-medium">
+Phone Number
+</label>
+
+<input
+type="tel"
+placeholder="Enter your phone"
+class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-600">
+
+</div>
+
+<div class="mb-4">
+
+<label class="block mb-2 font-medium">
+Message
+</label>
+
+<textarea
+rows="5"
+placeholder="Write your message"
+class="w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+
+</div>
+
+<button
+type="submit"
+class="w-full bg-blue-900 hover:bg-blue-800 text-white py-4 rounded-xl font-semibold">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- GOOGLE MAP -->
+
+<section class="pb-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center text-blue-950 mb-8">
+
+Location Map
+
+</h2>
+
+<div class="rounded-3xl overflow-hidden shadow-lg">
+
+<iframe
+src="https://maps.google.com/maps?q=Itarsi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="450"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-slate-900 text-white pt-12 w-full">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="grid md:grid-cols-3 gap-10">
+
+<div>
+
+<img src="images/logo.png" class="w-20 mb-4">
+
+<h3 class="font-bold text-xl">
+Govt. High School Bardha
+</h3>
+
+<p class="text-gray-400 mt-3">
+Knowledge • Discipline • Success
+</p>
+
+</div>
+
+<div>
+
+<h3 class="font-bold text-lg mb-4">
+Quick Links
+</h3>
+
+<ul class="space-y-2 text-gray-400">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="academics.html">Academics</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3 class="font-bold text-lg mb-4">
+Contact Info
+</h3>
+
+<p class="text-gray-400">
+Dandiwada, Itarsi
+</p>
+
+<p class="text-gray-400">
+Narmadapuram, MP - 461111
+</p>
+
+<p class="text-gray-400 mt-2">
+Principal: Mr. Shravan Vishvakarma
+</p>
+
+</div>
+
+</div>
+
+<div class="border-t border-slate-700 mt-10 py-6 text-center text-gray-400">
+
+© 2026 GOVT. HIGH SCHOOL BARDHA.
+All Rights Reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>

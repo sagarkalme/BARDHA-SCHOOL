@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Academics | GOVT. HIGH SCHOOL BARDHA</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+font-family:'Poppins',sans-serif;
+}
+body{
+background:#f8fafc;
+display: flex;
+flex-direction: column;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="w-full">
+
+<nav class="bg-white shadow sticky top-0 z-50">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="flex justify-between items-center h-20">
+
+<div class="flex items-center gap-3">
+
+<img src="images/logo.png" class="w-14 h-14">
+
+<div>
+<h1 class="font-bold text-blue-900">
+GOVT. HIGH SCHOOL
+</h1>
+<p class="text-sm text-gray-500">
+BARDHA
+</p>
+</div>
+
+</div>
+
+<div class="hidden md:flex gap-8">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html" class="text-blue-800 font-semibold">Academics</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+</div>
+
+</div>
+
+</nav>
+</header>
+<!-- HERO -->
+
+<section class="bg-blue-900 text-white py-20 rounded-xl">
+
+<div class="max-w-7xl mx-auto px-6 text-center ">
+
+<h1 class="text-5xl font-bold">
+
+Academics
+
+</h1>
+
+<p class="mt-4 text-blue-100">
+
+Excellence In Education & Student Development
+
+</p>
+
+</div>
+
+</section>
+
+<!-- INTRO -->
+
+<section class="py-20">
+
+<div class="max-w-6xl mx-auto px-6 text-center">
+
+<h2 class="text-4xl font-bold text-blue-950 mb-6">
+
+Quality Education For Every Student
+
+</h2>
+
+<p class="text-gray-600 max-w-3xl mx-auto">
+
+Govt. High School Bardha provides quality education
+from Class 1 to Class 10 with a focus on academic
+achievement, discipline, creativity and practical learning.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CLASS STRUCTURE -->
+
+<section class="pb-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center text-blue-950 mb-12">
+
+Academic Levels
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-white p-8 rounded-3xl shadow">
+
+<div class="text-5xl mb-4">📚</div>
+
+<h3 class="text-2xl font-bold mb-4">
+
+Primary Section
+
+</h3>
+
+<p class="text-gray-600">
+
+Class 1 to 5
+
+</p>
+
+<ul class="mt-4 text-gray-600 space-y-2">
+
+<li>✔ Basic Education</li>
+<li>✔ Reading Skills</li>
+<li>✔ Writing Skills</li>
+<li>✔ Moral Values</li>
+
+</ul>
+
+</div>
+
+<div class="bg-white p-8 rounded-3xl shadow">
+
+<div class="text-5xl mb-4">✏️</div>
+
+<h3 class="text-2xl font-bold mb-4">
+
+Middle Section
+
+</h3>
+
+<p class="text-gray-600">
+
+Class 6 to 8
+
+</p>
+
+<ul class="mt-4 text-gray-600 space-y-2">
+
+<li>✔ Science Basics</li>
+<li>✔ Mathematics</li>
+<li>✔ Social Science</li>
+<li>✔ Computer Awareness</li>
+
+</ul>
+
+</div>
+
+<div class="bg-white p-8 rounded-3xl shadow">
+
+<div class="text-5xl mb-4">🏆</div>
+
+<h3 class="text-2xl font-bold mb-4">
+
+High School
+
+</h3>
+
+<p class="text-gray-600">
+
+Class 9 to 10
+
+</p>
+
+<ul class="mt-4 text-gray-600 space-y-2">
+
+<li>✔ Board Preparation</li>
+<li>✔ Science & Maths</li>
+<li>✔ Career Guidance</li>
+<li>✔ Practical Learning</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SUBJECTS -->
+
+<section class="bg-white py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-4xl font-bold text-blue-950 mb-12">
+
+Subjects Offered
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="p-6 rounded-2xl shadow text-center">
+Hindi
+</div>
+
+<div class="p-6 rounded-2xl shadow text-center">
+English
+</div>
+
+<div class="p-6 rounded-2xl shadow text-center">
+Mathematics
+</div>
+
+<div class="p-6 rounded-2xl shadow text-center">
+Science
+</div>
+
+<div class="p-6 rounded-2xl shadow text-center">
+Social Science
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TIMING -->
+
+<section class="py-20">
+
+<div class="max-w-5xl mx-auto px-6">
+
+<div class="bg-blue-900 text-white rounded-3xl p-10 text-center">
+
+<h2 class="text-4xl font-bold mb-6">
+
+School Timing
+
+</h2>
+
+<p class="text-2xl">
+
+🕥 10:30 AM - 4:30 PM
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FACILITIES -->
+
+<section class="bg-white py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-4xl font-bold text-blue-950 mb-12">
+
+Academic Facilities
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="shadow p-6 rounded-2xl text-center">
+📚<br><br>Library
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+💻<br><br>Smart Classes
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+🏃<br><br>Playground
+</div>
+
+<div class="shadow p-6 rounded-2xl text-center">
+⚽<br><br>Sports Activities
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-slate-900 text-white py-8 w-full">
+
+<div class="text-center">
+
+<p>
+© 2026 GOVT. HIGH SCHOOL BARDHA
+</p>
+
+<p class="text-gray-400 mt-2">
+Knowledge • Discipline • Success
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
