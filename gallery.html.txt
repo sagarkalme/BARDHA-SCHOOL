@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | GOVT. HIGH SCHOOL BARDHA</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+display: flex;
+flex-direction: column;
+}
+
+.gallery-img{
+transition:.4s;
+cursor:pointer;
+}
+
+.gallery-img:hover{
+transform:scale(1.05);
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="bg-white shadow sticky top-0 z-50 w-full">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="flex justify-between items-center h-20">
+
+<div class="flex items-center gap-3">
+
+<img src="images/logo.png" class="w-14 h-14">
+
+<div>
+
+<h1 class="font-bold text-blue-900">
+GOVT. HIGH SCHOOL
+</h1>
+
+<p class="text-sm text-gray-500">
+BARDHA
+</p>
+
+</div>
+
+</div>
+
+<div class="hidden md:flex gap-8">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="gallery.html" class="text-blue-900 font-semibold">Gallery</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="bg-blue-900 py-20 text-white">
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<h1 class="text-5xl font-bold">
+
+School Gallery
+
+</h1>
+
+<p class="mt-4 text-blue-100">
+
+Capturing Memories, Learning & Achievements
+
+</p>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<div class="text-center mb-12">
+
+<h2 class="text-4xl font-bold text-blue-950">
+
+Campus Life
+
+</h2>
+
+<p class="text-gray-600 mt-3">
+
+Photos of school activities, events and achievements.
+
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<img src="images/gallery1.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery2.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery3.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery4.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery5.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery6.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery7.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery8.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+<img src="images/gallery9.jpg"
+class="gallery-img rounded-3xl shadow-lg h-72 w-full object-cover">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ACTIVITIES -->
+
+<section class="bg-white py-20">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-center text-4xl font-bold text-blue-950 mb-12">
+
+School Activities
+
+</h2>
+
+<div class="grid md:grid-cols-4 gap-6">
+
+<div class="bg-white shadow rounded-2xl p-8 text-center">
+
+🎓
+
+<h3 class="font-bold mt-4">
+Education
+</h3>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-8 text-center">
+
+🏆
+
+<h3 class="font-bold mt-4">
+Sports
+</h3>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-8 text-center">
+
+🎭
+
+<h3 class="font-bold mt-4">
+Cultural Programs
+</h3>
+
+</div>
+
+<div class="bg-white shadow rounded-2xl p-8 text-center">
+
+🇮🇳
+
+<h3 class="font-bold mt-4">
+National Events
+</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+
+<section class="py-20">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="bg-blue-900 text-white rounded-3xl p-10 text-center">
+
+<h2 class="text-4xl font-bold mb-4">
+
+Our Achievements
+
+</h2>
+
+<p class="text-blue-100">
+
+Celebrating student success in academics,
+sports and extracurricular activities.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="bg-slate-900 text-white py-8 w-full">
+
+<div class="text-center">
+
+<p>
+© 2026 GOVT. HIGH SCHOOL BARDHA
+</p>
+
+<p class="text-gray-400 mt-2">
+Knowledge • Discipline • Success
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
