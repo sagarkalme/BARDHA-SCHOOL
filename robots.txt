@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://sagarkalme.github.io/BARDHA-SCHOOL/sitemap.xml
